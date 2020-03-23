@@ -1391,13 +1391,7 @@ country SE: DFS-ETSI
 # The EIRP for 5250 - 5350 can be increased by 3dB if TPC is implemented.
 country SG: DFS-FCC
 	(2400 - 2483.5 @ 40), (23)
-	(5150 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5350 @ 80), (20), DFS, AUTO-BW
-	# 5470 - 5725 is only allowed when TPC is implemented
-	# (5470 - 5725 @ 160), (30), DFS
-	# Provisionally allow 5470 - 5725 with 3dBm backoff, emulating TPC behaviour
-	(5470 - 5725 @ 160), (27), DFS
-	(5725 - 5850 @ 80), (30)
+	(5150 - 5850 @ 160), (30)
 
 # SI as part of EU/CEPT accepted decisions 2005/513/EC (5GHz RLAN, EN 301 893)
 # and 2006/771/EC (amended by 2008/432/EC, Short-Range Devices, EN 300 440)
